@@ -67,12 +67,6 @@ To change the Admin Prefix, change `prefix` on `config/admin.php` or add the `AD
 <p align="center">
 	<img src="https://user-images.githubusercontent.com/6037466/179876455-1fbe6c89-9afc-4002-879b-fe3fc6506e34.png" >
 	<br/><br/>
-	<img src="https://user-images.githubusercontent.com/6037466/212739682-9b78b9d0-0a98-47c1-8cfd-c59eda49c29d.png" >
-	<br/><br/>
-	<img src="https://user-images.githubusercontent.com/6037466/212739938-558b0510-aab8-4093-b5d6-046ad54e4719.png" >
-	<br/><br/>
-	<img src="https://user-images.githubusercontent.com/6037466/212740241-7991aa91-f31b-4545-ad75-6d8b7d5a0152.png">
-	<br/><br/>
 </p>
 
 ## License
