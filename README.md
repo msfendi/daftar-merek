@@ -8,33 +8,18 @@
 
 ## Built with
 - [Laravel 10](https://github.com/laravel/framework)
+- [Livewire 3](https://livewire.laravel.com/)
+- [Apexchart JS](https://apexcharts.com/)
 - [spatie/laravel-permission](https://github.com/spatie/laravel-permission)
 - [Laravel Breeze](https://github.com/laravel/breeze)
 - [balajidharma/laravel-menu](https://github.com/balajidharma/laravel-menu)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [daisyUI](https://daisyui.com/)
+- [Laravel Excel](https://laravel-excel.com/)
 
 
 ## Installation
 
-### With Docker Desktop
-- To get started, you need to install [Docker Desktop](https://www.docker.com/products/docker-desktop).
-- You may run the following command in your terminal
-- Windows open WSL2 Linux terminal. [Docker Desktop WSL 2 backend](https://docs.docker.com/desktop/windows/wsl/)
-- `docker run --rm -v "$(pwd)":/opt -w /opt laravelsail/php82-composer:latest bash -c "composer create-project balajidharma/basic-laravel-admin-panel admin-app && cd admin-app && php artisan sail:install --with=mysql,redis,meilisearch,mailpit,selenium"`
-- `cd admin-app`
-- `./vendor/bin/sail pull mysql redis meilisearch mailpit selenium`
-- `./vendor/bin/sail build`
-- `./vendor/bin/sail up`
-- `./vendor/bin/sail npm install`
-- `./vendor/bin/sail npm run dev`
-- `./vendor/bin/sail artisan vendor:publish --provider="BalajiDharma\LaravelAdminCore\AdminCoreServiceProvider"`
-- `./vendor/bin/sail artisan vendor:publish --provider="BalajiDharma\LaravelMenu\MenuServiceProvider"`
-- `./vendor/bin/sail artisan vendor:publish --provider="BalajiDharma\LaravelCategory\CategoryServiceProvider"`
-- `./vendor/bin/sail artisan migrate --seed --seeder=AdminCoreSeeder`
-- Now open http://localhost/
-
-### Without Docker Desktop
 - To get started, you need to install [PHP Composer](https://getcomposer.org/).
 - `composer create-project balajidharma/basic-laravel-admin-panel admin-app`
 - `cd admin-app`
@@ -47,8 +32,12 @@
 - `php artisan serve`
 - Now open http://localhost:8000/
 
-###### Super Admin Login
-- Email - superadmin@example.com
+###### Admin Login
+- Email - admin@example.com
+- Password - password
+
+###### Pemohon Login
+- Email - pemohon@example.com
 - Password - password
 
 #### Admin Configuration:
